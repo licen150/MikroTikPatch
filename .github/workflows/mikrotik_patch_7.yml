@@ -9,13 +9,13 @@ on:
       arch:
         description: 'Architecture (x86, arm64, arm)'
         required: true
-        default: 'mips'
+        default: 'mipsbe'
         type: choice
         options:
           - x86
           - arm64
           - arm
-          - mips
+          - mipsbe
       channel:
         description: 'Channel (stable, testing)'
         required: true
